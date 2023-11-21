@@ -4,10 +4,10 @@ import os
 import json
 import psutil
 
-CLIENT_ID = "a1aec2f25ad2471c8bee8fa44acc204c"
-redirect_uri = "http://localhost:8888/callback"
-CLIENT_SECRET = "145348ab4ef649188c7cf3934023295a"
-username = "2P1F"
+CLIENT_ID = "Replace with ur client id"
+redirect_uri = "Replace with ur redirect uri"
+CLIENT_SECRET = "Replace with ur client secret"
+username = "Replace with ur username"
 scope = "user-read-currently-playing"
 
 def get_spotify_token():
